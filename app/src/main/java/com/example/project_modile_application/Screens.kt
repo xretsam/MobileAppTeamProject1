@@ -26,3 +26,10 @@ fun Profile() {
         Text(text = "Profile Screen")
     }
 }
+
+@Composable
+fun Nurba() {
+    Box(modifier = Modifier.fillMaxSize()) {
+        Text(text = "Nurba's screen")
+    }
+}
