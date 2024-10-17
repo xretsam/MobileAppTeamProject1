@@ -60,6 +60,7 @@ fun ShowAll() {
             fontFamily = GraphikFontFamily,
             fontWeight = FontWeight.Normal,
             fontSize = 12.sp
+            
         )
     }
 }
