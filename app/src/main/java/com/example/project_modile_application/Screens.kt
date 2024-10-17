@@ -5,13 +5,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.example.project_modile_application.ui.screen.home.Home as HomeScreen
+
 
 @Composable
 fun Home() {
-    Box(modifier = Modifier.fillMaxSize()) {
-        Text(text = "Home Screen")
-    }
+    HomeScreen()
 }
+
 
 @Composable
 fun Search() {
